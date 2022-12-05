@@ -15,5 +15,29 @@
 
 .row {
     display: flex;
+    flex-wrap: nowrap;
     
+}
+
+.box {
+    height: 50px;
+    width: calc(100% - 3px);
+    color: white;
+    background-color: rgb(46, 150, 255);
+    margin: 1px 1.5px;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.first-box {
+    margin-top: 50px;
+}
+
+.green-box {
+    width: calc(100% - 16px);
+    color: white;
+    background-color: rgba(25, 223, 35, 0.892);
+    margin: -5px 9.5px;
+    padding: 7px 1px;
+    text-align: center;
 }
