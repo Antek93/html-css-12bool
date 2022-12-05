@@ -1,0 +1,112 @@
+/* RESET  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN  */
+
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.row-end {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+
+.row-space-between {
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+
+.row-grow {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.row-space-around {
+   display: flex;
+   justify-content: space-around;
+
+}
+
+
+.green-box-1 {
+    width: calc(33% - 100px);
+    color: white;
+    background-color: rgb(6, 170, 15);
+    text-align: center;
+    height: 25px;
+}
+
+.box {
+    height: 55px;
+    width: calc(100% - 4px);
+    color: white;
+    background-color: rgb(46, 150, 255);
+    margin: 2px 2px;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.box-grow {
+    width: calc(100% - 4px);
+    color: white;
+    background-color: rgb(46, 150, 255);
+    margin: 2px 2px;
+    padding: 15px 0px;
+    text-align: center;
+    height: calc(100% / 3);
+
+
+}
+
+.box > div {
+    margin-top: 3px;
+}
+
+.space {
+    margin-top: 50px;
+}
+
+.green-box {
+    width: calc(100% - 8px);
+    color: white;
+    background-color: rgba(25, 223, 35, 0.892);
+    margin: -10px auto;
+    padding: 20px 6px;
+    text-align: center;
+}
+
+
+.row-lat-space-between {
+    display: flex;
+   justify-content: space-between;
+}
+
+
